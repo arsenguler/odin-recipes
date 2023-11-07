@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+html, body{
+    margin: 0px;
+    height: 99.46%;
+}
+
+img{
+    border-radius: 50px;
+    max-width: fit-content;
+    max-height: 600px;
+}
+
+button{
+    background-color: rgba(5, 0, 0, 0.486);
+    scale: 200%;
+    border-radius: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    gap: 100px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
