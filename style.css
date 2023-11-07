@@ -5,8 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 html, body{
@@ -38,4 +37,8 @@ ul{
 a{
     text-decoration: none;
     color: white;
+}
+
+ol{
+    max-width: 50%;
 }
